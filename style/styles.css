@@ -1,0 +1,63 @@
+
+html,
+body {
+  height: 3340px; 
+  width: 1500px; 
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; 
+}
+
+.nav {  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  background-color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  ;justify-content: space-between;
+align-items: center; padding:10px;}
+
+.btnnav1{ padding: 10px 20px;cursor:pointer;}
+
+.btnnav2 {background-color: rgb(226, 67, 3);;padding: 10px 20px;cursor:pointer;}
+.nav a{color: black;margin: 10px;}
+.a{margin-right: 100px;}
+.logo{position:absolute;right: 300px;}
+.img1{position: absolute; top: 200px; right: 300px;transform: scale(0.80);}
+.d1{position:absolute; bottom: 360px; left: 300px; }
+.d2{position: absolute;bottom: 240px;left: 300px;}
+.btnp1{position: absolute;bottom: 160px;left: 300px;width: 130px;
+  height: 50px;background-color: rgb(226, 73, 12);border: none;color: aliceblue;}
+.btnp2{position: absolute;bottom: 160px;left: 450px; 
+  width: 130px;;height:50px; color:rgb(226, 73, 12);border: none;}
+.d3{position: absolute;top:800px;right: 650px;
+text-align: center;}
+.card1{position: absolute;top:1000px;left: 250px;}
+.card2{position: absolute;top:1000px;left: 500px;}
+.card3{position: absolute;top:1000px;left: 800px;}
+.card4{position: absolute;top:1000px;left: 1100px;}
+.btnpr2{color: aliceblue; background-color:rgb(226, 73, 12)
+   ;position: absolute;top:1300px;left: 700px; border: none;width: 130px;;height:50px; }
+
+
+.bp{position: absolute;top: 1450px;left: 300px;}
+.img2{ position: absolute; top: 1400px; right: 300px; transform:scale(0.80);}
+
+.bb{position: absolute;top: 2000px;right:300px;}
+.img3{position: absolute; top: 1900px; left: 300px; transform:scale(0.80);}
+
+.cc{position: absolute;top: 2500px;left: 300px;}
+.img4{ position: absolute; top: 2400px; right: 300px; transform:scale(0.80);}
+
+.ff{ position: absolute;top: 3300px}
+.btns{position: absolute;left: 1100px;bottom: 50px; 
+  border: none;width: 130px;;height:50px;background-color:rgb(226, 73, 12) ; color: aliceblue;}
+
+  .ff {
+    width: 100%; 
+    height: 100px; 
+  }
+
+
+ 
